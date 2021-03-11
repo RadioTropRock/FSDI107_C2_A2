@@ -1,0 +1,65 @@
+.content {
+    display: flex;
+    border: 6px solid coral;
+    border-radius: 10px;
+}
+
+#list {
+    flex: 2;
+    background-color: palegreen;
+    border: 4px  solid cornflowerblue;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+#capture {
+    flex: 1;
+    background-color: rgb(47, 213, 255);
+    border: 4px solid green;
+    border-radius: 8px;
+    margin: 8px;
+
+}
+
+#iImportant {
+    font-size: 30px;
+}
+
+#iImportant.fas{
+    color: orange;
+}
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: navy;
+}
+p{
+    word-spacing: 4px;
+    text-align: left;
+    margin-left: 25px;
+    color:navy
+    
+}
+
+#btnDetails{
+    margin-left: 4px;
+
+}
+
+
+
+.listItem{
+    border: 7px solid darkorange;
+    border-radius: 12px;
+    display: inline-flexbox;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: deepskyblue;
+}
